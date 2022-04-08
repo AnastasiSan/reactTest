@@ -1,0 +1,15 @@
+.InputTable {
+  border: none;
+  color: #000;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.InputTable:disabled {
+  background-color: rgba(0, 0, 0, .2);
+
+}
+
+.InputTable::placeholder {
+  color: inherit;
+}

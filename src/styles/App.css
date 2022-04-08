@@ -10,12 +10,16 @@
 }
 
 .App {
-  width: 800px;
+  min-width: 800px;
 }
 
 td, th {
-
   padding: 15px;
   border: 2px solid teal;
   /* margin-top: 15px; */
+}
+
+.post_btns {
+  display: flex;
+  justify-content: center;
 }

@@ -10,8 +10,9 @@ const PostList = ({ posts, title, remove }) => {
           <tr>
             <th>ID</th>
             <th>Имя</th>
-            <th>Уровень</th>
-            <th>Опыт работы</th>
+            <th>Возраст</th>
+            <th>Почта</th>
+            <th>&nbsp;</th>
             <th>&nbsp;</th>
           </tr>
         </thead>
